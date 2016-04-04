@@ -24,6 +24,10 @@ second set from staging area to repository, then we can have one commit per logi
 --------------------------------------------------------------------------------
 4.What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	If we want to do some experimental feature or create version of file in 
+another language like italian or some big change and dont want to keep it on master 
+branch then we can create separate branches and keep working on them. Once new feature 
+is working we can merge it with master branch.
 --------------------------------------------------------------------------------
 5.How do the diagrams help you visualize the branch structure?
 --------------------------------------------------------------------------------
