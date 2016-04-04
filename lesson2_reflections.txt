@@ -36,6 +36,14 @@ from it we can draw diagrams.
 --------------------------------------------------------------------------------
 6.What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	when we merge two branches using git merge master coins, then code from 
+coins(or if any other file is checkout gets also included) gets merged into master and
+a new commit node is created having 2 parents one master and other coins.
 --------------------------------------------------------------------------------
 7.What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Pros of automatic merging
+	-Human effort is saved.
+	Cons
+	- We are relying on machine we should verify as we are better judge it is what is intended.
+	
