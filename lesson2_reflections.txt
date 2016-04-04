@@ -17,6 +17,10 @@ commit to Repository.
 --------------------------------------------------------------------------------
 3.How can you use the staging area to make sure you have one commit per logical
 change?
+	If we add files to staging area according to logical change and commit those first.
+Then we add next set of files to staging area from working directory and then commit
+second set from staging area to repository, then we can have one commit per logical change.
+
 --------------------------------------------------------------------------------
 4.What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
