@@ -30,6 +30,9 @@ branch then we can create separate branches and keep working on them. Once new f
 is working we can merge it with master branch.
 --------------------------------------------------------------------------------
 5.How do the diagrams help you visualize the branch structure?
+	git log --graph --oneline master coins easy-mode
+Will help to visualize most recent commits on all the branches and
+from it we can draw diagrams.
 --------------------------------------------------------------------------------
 6.What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
