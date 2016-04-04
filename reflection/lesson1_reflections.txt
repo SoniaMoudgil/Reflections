@@ -1,0 +1,73 @@
+
+1.How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The command listed out those lines from each file where diferences existed 
+in contents from both files. So it beacome faster to just scan that content 
+alone instead of whole files.
+	git diff commit-id-old commit-id-new
+-----------------------------------------------------------------------------
+2.How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    -To undo certain changes and redo the old feature.
+    -To learn from previous mistakes and thier correct solution. 
+-----------------------------------------------------------------------------
+
+3.What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    -Manual Commit
+	Pros - You as coder know better when it is logical to make commit.
+	Cons - If you forget to commit then changes might get lost.
+   -Auto Commit
+	Pros - It will be rare that Changes ever get lost.
+	Cons - It might cretae unnecessary large no of versions 
+	even when no useful change has been made.
+-----------------------------------------------------------------------------
+
+4.Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    -Because in git we have a concept of Repository which contains all files 
+that are being changed for a commit (can be 1 or more files). Since in Git 
+we save Code and implementing some feature requires changing more that 1 file
+simultaneously as those changes are related to one particular feature implementation.
+
+    -But in Google docs we work at a time in one document and save it separately from
+some other simultaneous document being worked on.Two documents are not related to each other.
+-----------------------------------------------------------------------------
+
+
+5.How can you use the commands git log and git diff to view the history of files?
+
+    -git log //It will list all commits done till now, their id and list of files changed.
+    -git diff id1 id2 //It will show additions ++ in green and deletions -- in red.
+
+	To clone a repository, run git clone followed by a space and the repository URL
+		git clone https://github.com/udacity/asteroids.git
+
+	To stop viewing git log output, press q (which stands for quit).
+
+	To get colored diff output, run 
+		git config --global color.ui auto
+
+	Using git log and git diff
+		git log will show a list of the recent commits with information about them, including commit IDs. 
+		git diff followed by two commit IDs will compare the two versions of the code in those commits.
+
+
+-----------------------------------------------------------------------------
+
+6.How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+	Because I can come back to previous version(git checkout) and 
+compare changes after that to search for bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    Writing Files into Git Server
