@@ -38,6 +38,10 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
+Mailing entire source code or putting it on FTPServer or some other shared area.
+Easy - No need to learn new tool likt git
+Tough - Maintaining different versions of a file and comparing/merging different versions of same
+ programmer or files from different programmers. 
 ____________________________________________________________________________________
 6.
 When would you want to make changes in a separate branch rather than directly in
