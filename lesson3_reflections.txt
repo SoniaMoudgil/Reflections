@@ -29,6 +29,9 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     Fill in your answer here
+To identify in future of chages made locally since last cloning from Github.
+To identify in future of changes made to Remote since last forking or cloning from Github.
+Thus would help to merge conflicting changes b/w local and remote repositories.
 ____________________________________________________________________________________
 5.
 How would you collaborate without using Git or GitHub?  What would be easier,
