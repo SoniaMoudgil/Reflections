@@ -5,18 +5,24 @@ local?
     When my work has reached some logical conclusion or when I want to share my work 
 with others and also so that it remains safe on github (distributed and on cloud) and
 can be accessed from anywhere and at any time.
+
+    When editing an existing file from Github from another computer or letting some other
+team memeber make changes to some file of a project at that time remote repository can
+be used.
 ____________________________________________________________________________________
 2.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because I am better judge when I want to keep some change on my computer or not.
 ____________________________________________________________________________________
 3.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork -Makes a copy of a Repository in Github to Github.
+    Clone - Makes a copy of a Repository from Github to my local computer.
+    Branches - To do some new and different kind of work we create a new branch.
 ____________________________________________________________________________________
 4.
 What is the benefit of having a copy of the last known state of the remote
