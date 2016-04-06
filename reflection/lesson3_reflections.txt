@@ -5,6 +5,10 @@ local?
     When my work has reached some logical conclusion or when I want to share my work 
 with others and also so that it remains safe on github (distributed and on cloud) and
 can be accessed from anywhere and at any time.
+
+    When editing an existing file from Github from another computer or letting some other
+team memeber make changes to some file of a project at that time remote repository can
+be used.
 ____________________________________________________________________________________
 2.
 Why might you want to always pull changes manually rather than having Git
