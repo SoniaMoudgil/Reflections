@@ -48,4 +48,12 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+Separate branch- When the change is new or major feature which will impact existing functionality.
+When I want to get my work reviewd by others or when I have to collaborate with others.
+Advantage Can work separately on new feature even if master is being changed by others.
+I can take others reviews and can test new functionality in all different scenarios.
+
+Main branch - When there is very simple/small/few or straight forward changes to be made which will not impact much
+existing functionality.
+Advantage - It is fast and already contains most of changes of master branch.
 ____________________________________________________________________________________
